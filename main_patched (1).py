@@ -80,7 +80,7 @@ async def start_command(bot: Client, message: Message):
 <blockquote>🌟 <b>Welcome Buddy....! ⚠️!</b> 🌟</blockquote><br><br>
 
 /help <b>to know about all the commonds</b> 📄 <br><br>
-<b>Contact Me</b> [🇩🇪𝗔𝗙𝗙𝗘𝗡𝗧𝗔𝗠𝗜𝗡𝗢🇮🇳](tg://user?id=7517045929)<b>to Get The Subscription</b> 🎋<br>
+<b>Contact Me</b> [🇩🇪𝗔𝗙𝗙𝗘𝗡𝗧𝗔𝗠𝗜𝗡𝗢🇮🇳](tg://user?id=5587210448)<b>to Get The Subscription</b> 🎋<br>
 """)
 
     async def safe_edit(new_text):
