@@ -61,17 +61,11 @@ keyboard = InlineKeyboardMarkup(
 )
 # Image URLs for the random image feature
 image_urls = [
-    
-    "https://tinypic.host/image/138383-mouth-costume-face-mask-head-360x640.3rdpmQ",
-    "https://tinypic.host/image/138383-mouth-costume-face-mask-head-360x640.3rdpmQ",
-    "https://tinypic.host/image/138383-mouth-costume-face-mask-head-360x640.3rdpmQ",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    "https://tinypic.host/image/Screenshot-2025-03-19-06-40-21-30.3gKoOw",
-    # Add more image URLs as needed
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/June_odd-eyed-cat.jpg/640px-June_odd-eyed-cat.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pleiades_large.jpg/640px-Pleiades_large.jpg"
 ]
+
 # Start command handler
 @bot.on_message(filters.command(["start"]))
 async def start_command(bot: Client, message: Message):
