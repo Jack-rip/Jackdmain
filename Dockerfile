@@ -13,7 +13,6 @@ RUN apk add --no-cache \
     libffi-dev \
     musl-dev \
     ffmpeg \
-    aria2 \
     make \
     g++ \
     cmake
