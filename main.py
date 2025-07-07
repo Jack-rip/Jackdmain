@@ -80,7 +80,7 @@ async def start_command(bot: Client, message: Message):
 <blockquote>🌟 <b>Welcome Buddy....! ⚠️!</b> 🌟</blockquote><br><br>
 
 /help <b>to know about all the commonds</b> 📄 <br><br>
-<b>Contact Me</b> [🇩🇪𝗔𝗙𝗙𝗘𝗡𝗧𝗔𝗠𝗜𝗡𝗢🇮🇳](tg://user?id=7517045929)<b>to Get The Subscription</b> 🎋<br>
+<b>Contact Me</b> [🇩🇪𝗔𝗙𝗙𝗘𝗡𝗧𝗔𝗠𝗜𝗡𝗢🇮🇳](tg://user?id=5587210448)<b>to Get The Subscription</b> 🎋<br>
 """)
 
     async def safe_edit(new_text):
@@ -152,7 +152,7 @@ def write_channels_data(data):
 # Admin-only decorator
 def admin_only(func):
     async def wrapper(client, message):
-        if message.from_user.id != YOUR_ADMIN_ID:
+        if message.from_user.id != 5587210448:
             return await message.reply_text("You are not authorized to use this command.")
         await func(client, message)
     return wrapper
@@ -200,7 +200,7 @@ async def remove_user(client, message: Message):
 
 # Helper function to check admin privilege
 def is_admin(user_id):
-    return user_id in owner_id or user_id == YOUR_ADMIN_ID
+    return user_id in owner_id or user_id == 5587210448
 
 @bot.on_message(filters.command("users"))
 async def show_users(client, message: Message):
