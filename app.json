@@ -1,0 +1,42 @@
+{
+    "name": "Drm Uploader By ​🇩​​🇪​​🇻​​🇮​​🇱​ 👑",
+    "description": "DRM Uploader",
+    "logo": "https://tinypic.host/image/138383-mouth-costume-face-mask-head-360x640.3rdpmQ",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/Chiru63019/Classplusdrm",
+    "success_url": "https://telegram.me/teamdevilbotz",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "enter_your_api_id",
+            "value": "26468828",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "enter_your_api_harsh",
+            "value": "4693513c08d1ac6af15f95b116c29478",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your bot token",
+            "value": "",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
